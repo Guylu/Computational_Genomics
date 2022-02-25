@@ -1,0 +1,1487 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{fullpage}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "Curlz MT"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts true
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\sumin}{\sum_{i=1}^{n}}
+{\sum_{i=1}^{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumjn}{\sum_{j=1}^{n}}
+{\sum_{j=1}^{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumim}{\sum_{i=1}^{m}}
+{\sum_{i=1}^{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumjm}{\sum_{j=1}^{m}}
+{\sum_{j=1}^{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumik}{\sum_{i=1}^{k}}
+{\sum_{i=1}^{k}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumjk}{\sum_{j=1}^{k}}
+{\sum_{j=1}^{k}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumkn}{\sum_{k=1}^{n}}
+{\sum_{k=1}^{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumnk}{\sum_{n=1}^{k}}
+{\sum_{n=1}^{k}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\sumkm}{\sum_{k=1}^{m}}
+{\sum_{k=1}^{m}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ser}[3]{#1_{1}#2#1_{2}#2#1_{2}#2#1_{3}#2....#2#1_{#3}}
+{#1_{1}#2#1_{2}#2#1_{2}#2#1_{3}#2....#2#1_{#3}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vn}{v_{1},v_{2},...v_{n}}
+{v_{1},v_{2},...v_{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vm}{v_{1},v_{2},...v_{m}}
+{v_{1},v_{2},...v_{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\un}{u_{1},u_{2},...u_{n}}
+{u_{1},u_{2},...u_{n}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\um}{u_{1},u_{2},...u_{m}}
+{u_{1},u_{2},...u_{m}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vk}{v_{1},v_{2},...v_{k}}
+{v_{1},v_{2},...v_{k}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\vecmul}[6]{\left[\begin{matrix}#1\\
+ #2\\
+ #3 
+\end{matrix}\right]\times\left[\begin{matrix}#4\\
+ #5\\
+ #6 
+\end{matrix}\right]=\left[\begin{matrix}\left(#2\right)\cdot\left(#6\right)-\left(#3\right)\cdot\left(#5\right)\\
+ \left(#3\right)\cdot\left(#4\right)-\left(#1\right)\cdot\left(#6\right)\\
+ \left(#1\right)\cdot\left(#5\right)-\left(#2\right)\cdot\left(#4\right) 
+\end{matrix}\right]}
+{\left[\begin{matrix}#1\\
+#2\\
+#3
+\end{matrix}\right]\times\left[\begin{matrix}#4\\
+#5\\
+#6
+\end{matrix}\right]=\left[\begin{matrix}\left(#2\right)\cdot\left(#6\right)-\left(#3\right)\cdot\left(#5\right)\\
+\left(#3\right)\cdot\left(#4\right)-\left(#1\right)\cdot\left(#6\right)\\
+\left(#1\right)\cdot\left(#5\right)-\left(#2\right)\cdot\left(#4\right)
+\end{matrix}\right]}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\lim}[1]{\lim_{n\rightarrow\infty}\left(#1\right)}
+{\lim_{n\rightarrow\infty}\left(#1\right)}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\rank}{\text{Rank}}
+{\text{Rank}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\im}{\text{Im}}
+{\text{Im}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\sp}{\text{Span}}
+{\text{Span}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\fancyF}{\mathscr{F}}
+{\mathscr{F}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\fancyB}{\mathscr{B}}
+{\mathscr{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\baseA}{\mathcal{A}}
+{\mathcal{A}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\baseB}{\mathcal{B}}
+{\mathcal{B}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\baseC}{\mathcal{C}}
+{\mathcal{C}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\FF}{\mathbb{F}}
+{\mathbb{F}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\CC}{\mathbb{C}}
+{\mathbb{C}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\RR}{\mathbb{R}}
+{\mathbb{R}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\QQ}{\mathbb{Q}}
+{\mathbb{Q}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\NN}{\mathbb{N}}
+{\mathbb{N}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ZZ}{\mathbb{Z}}
+{\mathbb{Z}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\kaliCupDot}{\mathbin{\cupdot}}
+{\mathbin{\dot{\cup}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\kaliBigCupDot}{\mathbin{\bigcupdot}}
+{\mathbin{\dot{\bigcup}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\PP}{\mathbb{P}}
+{\mathbb{P}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\EE}{\mathbb{E}}
+{\mathbb{E}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\nab}{\overline{\nabla}}
+{\overline{\nabla}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\supp}{\text{Supp}}
+{\text{Supp}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\geo}{\text{Geo}}
+{\text{Geo}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\bin}{\text{Bin}}
+{\text{Bin}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ber}{\text{Ber}}
+{\text{Ber}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\poi}{\text{Poi}}
+{\text{Poi}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\exp}{\text{Exp}}
+{\text{Exp}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\cov}{\text{Cov}}
+{\text{Cov}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\var}{\text{Var}}
+{\text{Var}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\sinc}{\text{sinc}}
+{\text{sinc}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\ra}{\text{\ensuremath{\rightarrow}}}
+{\text{\ensuremath{\rightarrow}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\la}{\text{\ensuremath{\leftarrow}}}
+{\text{\ensuremath{\leftarrow}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\renewcommand{\iff}{\text{\ensuremath{\Leftrightarrow}}}
+{\text{\Leftrightarrow}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\E}{\text{\ensuremath{\exists}}}
+{\text{\ensuremath{\exists}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\RA}{\text{\ensuremath{\Rightarrow}}}
+{\text{\ensuremath{\Rightarrow}}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\LA}{\text{\ensuremath{\Leftarrow}}}
+{\text{\ensuremath{\Leftarrow}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset FormulaMacro
+\newcommand{\li}{\text{\ensuremath{\langle}}}
+{\text{\langle}}
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\newcommand{\ri}{\rangle}
+{\text{\rangle}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\vec}{\begin{bmatrix}\end{bmatrix}}
+{\begin{bmatrix}\end{bmatrix}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\T}{^{\intercal}}
+{^{\intercal}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\xor}{\oplus}
+{\oplus}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\norm}{\Vert}
+{\Vert}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\2}{^{2}}
+{^{2}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\and}{\wedge}
+{\wedge}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang hebrew
+\begin_inset Box Doublebox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Title
+76553 | Computational Genomics
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\xout default
+\lang hebrew
+|
+\xout off
+\lang english
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Exercise 
+\numeric on
+\lang hebrew
+1
+\family roman
+\series medium
+\shape up
+\size largest
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\end_layout
+
+\begin_layout Author
+Guy Lutsker 207029448 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\lang american
+\begin_inset Formula $\mathcal{\mathcal{\mathfrak{\mathscr{\textrm{\ensuremath{\mathcal{Q}uestion} }}1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Preface
+\end_layout
+
+\begin_layout Standard
+In this exercise we experimented with trying to map short DNA reads to a
+ genome.
+ Specifically we tried mapping two read files 
+\series bold
+ATAC.chr19.R01.fastq.gz, ATAC.chr19.R02.fastq.gz 
+\series default
+containing 677996 reads each, to human chromosome 19.
+ The general heuristic presented (one of several actually) in class suggested
+ using hash tables to perform the mapping.
+ This idea, as ingenious as it sounds at first glance, reveals some problems
+ once you try to use it.
+ In more detail, using hash maps will provide some useful results, but it
+ cannot handle the slightest of variations to the reference genome, and
+ so if our reads has a mutation / unexpected SNP / sequencing error our
+ hash function will fail (by our definition).
+ Taking this into account, I tried to design a genomic mapper that will
+ map as many reads as possible, keeping in mind to try and conserve time
+ and space complexity.
+\end_layout
+
+\begin_layout Subsection*
+My Heuristic 
+\end_layout
+
+\begin_layout Standard
+My first idea was inspired by something said in the lecture (as one might
+ expect?) - that DNA sequences longer than 20bp should be pretty much unique.
+ And so I tried using a seed (
+\begin_inset Formula $K$
+\end_inset
+
+) of size 20 to hash every sequence of length 20 into a python dictionary,
+ and trying to use the first 20 bases of each read to try and map it.
+ This idea worked, since almost all hash entries were unique, but unfortunately
+ the success rate (reads mapped) was ~50%.
+ In addition when I remembered that we can try and refer to each read as
+ both itself and as its reverse compliment did not boost up the success
+ rate.
+ This was mainly due to the problem I explained previously - hash of this
+ length was unable to capture the diversity of the read variety.
+ A naive move to the opposite end of the spectrum and to try and use a short
+ hash length, (say 
+\begin_inset Formula $K=5$
+\end_inset
+
+) would result in having reads mapped to too many incidences along the genome.
+ To be honest I tried many methods to try and solve this problem, including
+ (but defiantly not limited to) trying to use a short 
+\begin_inset Formula $K$
+\end_inset
+
+ multiple times along each read, and try and merge these results to a likely
+ candidate - this method was computationally not viable (at least I wasn't
+ able to find an efficient implementation), although I still feel that it
+ might have the highest success rate.
+ In addition I went with the thought that I should consider a read mapped,
+ if I can map it to a single location.
+ Meaning that if I can not map it to a unique location in the genome, I
+ consider this read unable to be mapped.
+ One important thing I found is that the length that sequences start being
+ unique is ~20 and the length of the reads is 36/40 which is almost double.
+ Eventually I settled on this algorithm:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+My Algorithm:
+\end_layout
+
+\begin_layout Enumerate
+Set 
+\begin_inset Formula $K\sim\frac{Read\ Len}{2}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+Generate hash map 
+\series bold
+genome_map
+\series default
+ from genome with key of length 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+(
+\series bold
+genome_map 
+\series default
+is implemented using open hashing, with every key being a DNA sequence of
+ length 
+\begin_inset Formula $K$
+\end_inset
+
+ and every value being a python set object.)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Set 
+\series bold
+map1
+\series default
+ to be the translated version of all reads of index 
+\begin_inset Formula $0:K$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+Set 
+\series bold
+map2
+\series default
+ to be the translated version of all reads of index 
+\begin_inset Formula $Read\ Len-K:Read\ Len$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Set 
+\series bold
+Union
+\series default
+ as the pairwise union of 
+\series bold
+map1
+\series default
+,
+\series bold
+map2
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+(Now, for the i'th entry of Union I have the set of indices that match genome[i:
+i+K] at Union[i].)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+For each indices in 
+\series bold
+Union
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If len(indices) = 1: We are good.
+\end_layout
+
+\begin_layout Enumerate
+If len(indices) = 2: Check pairwise match of both indices against the whole
+ read (and not just sequence of length 
+\begin_inset Formula $K$
+\end_inset
+
+ ).
+ Remove the one with the lower score.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Do steps 1-6 on reverse compliment of each read to get 
+\series bold
+Union_RC
+\end_layout
+
+\begin_layout Enumerate
+Set S
+\series bold
+uper_Union
+\series default
+ as the pairwise union of 
+\series bold
+Union & Union_RC
+\end_layout
+
+\begin_layout Enumerate
+Run step 6 on 
+\series bold
+Super_Union
+\end_layout
+
+\begin_layout Enumerate
+Return
+\series bold
+ Super_Union
+\end_layout
+
+\begin_layout Standard
+Time & Space Complexity: 
+\end_layout
+
+\begin_layout Standard
+Define 
+\begin_inset Formula $G$
+\end_inset
+
+ as the size of the genome, 
+\begin_inset Formula $n$
+\end_inset
+
+ as the number of reads, and we have 
+\begin_inset Formula $k$
+\end_inset
+
+ which we will assume is smaller than the others.
+\end_layout
+
+\begin_layout Standard
+Time Complexity: 
+\begin_inset Formula $O(\overset{\text{Creating Hash Map}}{\overbrace{G}}+\overset{\text{Mapping Reads}}{\overbrace{\frac{n}{k}}})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Space Complexity: 
+\begin_inset Formula $O((\overset{\text{Hash Map Creation}}{\overbrace{G}}+\overset{\text{Storing Mapping}}{\overbrace{n}})\cdot k)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\lang american
+\begin_inset Formula $\mathcal{\mathcal{\mathfrak{\mathscr{\textrm{\ensuremath{\mathcal{Q}uestion} }}2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this section I will share my empirical results.
+\end_layout
+
+\begin_layout Standard
+Firstly Let us look at the success rate of our algorithm for different 
+\begin_inset Formula $K$
+\end_inset
+
+ values:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted4.png
+	lyxscale 60
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Percentage of Mapped Reads Per 
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As we can see File1 has consistently higher success rate than File2, I attribute
+ this result to the fact that the reads in File1 are longer (40bs) than
+ File2 reads (36bp) and so we had more information to match.
+ Altogether at its best the algorithm was able to map 89.1 & 86.3 percent
+ of the reads in files 1&2 respectively (
+\begin_inset Formula $K=28)$
+\end_inset
+
+.
+ We can also see that the results resembles a distorted parabola, this is
+ intuitive since, we would expect a low success rate at very low or high
+ 
+\begin_inset Formula $K$
+\end_inset
+
+ values, and would expect to find a sweet spot some where in the middle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another way of visualizing my results is using a histogram of mapped reads:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted7.png
+	lyxscale 60
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Histogram of Mapped Reads Per Certain Values 
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I chose these values of 
+\begin_inset Formula $K$
+\end_inset
+
+ since 15 was the lowest 
+\begin_inset Formula $K$
+\end_inset
+
+ I tested, and it seemed interesting to me to see how it mapped, 20 because
+ it was my initial naive guess for best results (
+\begin_inset Formula $K\sim\frac{Read\ Len}{2}$
+\end_inset
+
+), and 28 was the actual best result.
+ As we can see the graphs are actually quite similar, but one quirk they
+ all have is this gap in the middle of the histogram.
+ When I first saw this I thought this might be a section that wasn't sequenced,
+ and when I tried looking in the data itself ( since I was a bit scared
+ this was a bug) I saw that this was a sectioned filled with 
+\begin_inset Formula $N$
+\end_inset
+
+ values.
+ And then I thought that this might be a chromatin packed area that is hard
+ to sequence.
+ Maybe I'm way off but since this section is in the middle of the chromosome
+ this is the centromere of the chromosome? it would fit my results and would
+ coincide with biological intuition.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another Important result we want to measure in the time complexity of the
+ algorithm.
+ I wanted to split this analysis into two: (a) Analysis of time complexity
+ of creating the hash table.
+ (b) Analysis of time complexity of the algorithm itself.
+ Here we can see the results of the practical time measurement of the algorithm
+ itself:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted3.png
+	lyxscale 60
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Algorithm Time Measurement Per 
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As we can see as 
+\begin_inset Formula $K$
+\end_inset
+
+ grows larger, the time required for the algorithm decreases.
+ This is also intuitive since my algorithm benefits mostly from the sparsity
+ of the hash table entries, and so as 
+\begin_inset Formula $K$
+\end_inset
+
+ grows larger we would expect the sets at each value to be shorter and so
+ my algorithm would have less work to do.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As I will show in figure.5 the space complexity of the algorithm heavily
+ depends on the value of 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ This is because 
+\begin_inset Formula $K$
+\end_inset
+
+ has a big impact on the size of the hash map, and this is the main parameter
+ that takes up space in this program.
+ To combat this I realized that in real life and in practice, we already
+ have our reference genome laying around and we get all sorts of reads we
+ want to map.
+ And so its inefficient to create our hash map each time we want to map
+ reads, since this step is interdependent of the reads themselves.
+ This is why I wanted to plot the time it takes us to create the hash map
+ versus the time it takes to pull it from memory if we already calculated
+ it ( this is basically why I wanted to split the time measurement into
+ 2 parts), results are in the figure below:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted1.png
+	lyxscale 60
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Time to Create Hash Map V.S Loading From Memory Per 
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As we can see the time it takes to create/load the hash map goes up ever
+ so slightly with the rise in 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ What is important in this graph is that there is a consistent gap (of about
+ 40 secs) between creation times and loading times, which can save a lot
+ of time and money in practice.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And as promised, here I show the practical space complexity of the algorithm
+ with relation to 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ The results seemed too linear and I couldn't resist adding a linear regression
+ fit :) The results are as follows: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted5.png
+	lyxscale 60
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Space Complexity Per 
+\begin_inset Formula $K$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+
+\lang american
+\begin_inset Formula $\mathcal{\mathcal{\mathfrak{\mathscr{\textrm{\ensuremath{\mathcal{Q}uestion} }}3}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No output required, will visualize results in Q4.
+\end_layout
+
+\begin_layout Section*
+
+\lang american
+\begin_inset Formula $\mathcal{\mathcal{\mathfrak{\mathscr{\textrm{\ensuremath{\mathcal{Q}uestion} }}4}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+When running the results from bowtie program in IGV I got the following
+ results:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pasted6.png
+	lyxscale 40
+	scale 20
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+IGV Visualization
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The mapping results were: for single end: 99 % mapped with 87% mapped to
+ single location, and 12% mapped to more than one location.
+ And paired end results: 99.7% mapped with 93.2% mapped to single location
+ and 6.4 to more than one location.
+\end_layout
+
+\begin_layout Standard
+These results seem different than mine, and it looks as though their algorithm
+ mostly found reads before (and a bit after) the gap I theorized was the
+ centromere.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,517 @@
+15
+Generating Dict Time:122.2670328617096
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 178.05489826202393
+
+Success Rate: 
+0.7690222361193871
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 152.73569416999817
+
+Success Rate: 
+0.7675089528551791
+
+
+
+
+
+
+
+
+
+
+16
+Generating Dict Time:132.45045566558838
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 125.15153503417969
+
+Success Rate: 
+0.8200682599897344
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 123.10012578964233
+
+Success Rate: 
+0.8168897751609154
+
+
+
+
+
+
+
+
+17
+Generating Dict Time:134.1522045135498
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 109.32629132270813
+
+Success Rate: 
+0.8393515595962218
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 108.06731796264648
+
+Success Rate: 
+0.8350727732906978
+
+
+
+
+
+
+
+
+
+
+
+
+18
+Generating Dict Time:134.75003504753113
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 89.97182536125183
+
+Success Rate: 
+0.8505905639561295
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 111.84235429763794
+
+Success Rate: 
+0.8451716529301058
+
+
+
+
+
+
+
+19
+Generating Dict Time:133.86371517181396
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 73.58551692962646
+
+Success Rate: 
+0.8597056619803066
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 95.21574258804321
+
+Success Rate: 
+0.8501053103558133
+
+
+
+
+
+
+
+
+
+
+
+
+20
+Generating Dict Time:134.80499076843262
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 57.01554775238037
+
+Success Rate: 
+0.8675051180242951
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 77.08195376396179
+
+Success Rate: 
+0.8542189039463359
+
+
+
+
+
+
+
+
+
+
+21
+Generating Dict Time:136.992614030838
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 51.565070152282715
+
+Success Rate: 
+0.8726659154331294
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 63.538655519485474
+
+Success Rate: 
+0.8575876553843975
+
+
+
+
+
+
+
+22
+Generating Dict Time:147.41217041015625
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 45.91452598571777
+
+Success Rate: 
+0.8771585673071818
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 58.37254786491394
+
+Success Rate: 
+0.8602705620682128
+
+
+
+
+
+
+
+
+
+
+
+
+23
+Generating Dict Time:148.1008334159851
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 53.42768692970276
+
+Success Rate: 
+0.8812913350521242
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 41.223726749420166
+
+Success Rate: 
+0.8623664446397914
+
+
+
+
+
+
+24
+Generating Dict Time:146.62866258621216
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 47.95939350128174
+
+Success Rate: 
+0.8846173133764801
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 34.75068473815918
+
+Success Rate: 
+0.8635862158478811
+
+
+
+
+
+
+
+
+25
+Generating Dict Time:151.8298854827881
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 46.05441904067993
+
+Success Rate: 
+0.8873016949952507
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 34.125730991363525
+
+Success Rate: 
+0.8641968389194037
+
+
+
+
+
+
+
+
+26
+Generating Dict Time:151.902658700943
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 42.81211280822754
+
+Success Rate: 
+0.8892073109575868
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 31.836453437805176
+
+Success Rate: 
+0.8644859261706559
+
+
+
+
+
+
+
+
+
+
+
+
+
+27
+Generating Dict Time:146.49646282196045
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 39.26804852485657
+
+Success Rate: 
+0.8904079080112567
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 27.14998507499695
+
+Success Rate: 
+0.8643989050082891
+
+
+
+
+
+
+
+
+
+28
+Generating Dict Time:152.9631631374359
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 37.63897657394409
+
+Success Rate: 
+0.8915008348131848
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 27.06120014190674
+
+Success Rate: 
+0.863941675172125
+
+
+
+
+
+
+
+
+
+
+29
+Generating Dict Time:153.05973362922668
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 37.176419496536255
+
+Success Rate: 
+0.8917589484303742
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 26.73008155822754
+
+Success Rate: 
+0.8628870966790364
+
+
+
+
+
+
+
+
+
+
+30
+Generating Dict Time:163.569233417511
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 25.21370768547058
+
+Success Rate: 
+0.8913666157322462
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 25.331785917282104
+
+Success Rate: 
+0.86158030430858
+
+
+
+
+
+
+
+
+
+31
+Generating Dict Time:164.1685597896576
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 24.327975034713745
+
+Success Rate: 
+0.8908636629124655
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 24.475241899490356
+
+Success Rate: 
+0.8601702664912477
+
+
+
+
+
+
+
+
+
+
+
+
+32
+Generating Dict Time:159.10536074638367
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 22.238292694091797
+
+Success Rate: 
+0.8895922689809379
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 22.68185329437256
+
+Success Rate: 
+0.8586466586823521
+
+
+
+
+
+
+
+
+
+
+33
+Generating Dict Time:162.85086393356323
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 22.19314455986023
+
+Success Rate: 
+0.8877530250915935
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 22.304152965545654
+
+Success Rate: 
+0.8568118395978738
+
+
+
+
+
+
+
+
+34
+Generating Dict Time:158.3259937763214
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 21.091254949569702
+
+Success Rate: 
+0.885941804966401
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 21.291200160980225
+
+Success Rate: 
+0.8541392574587461
+
+
+
+
+
+
+
+
+35
+Generating Dict Time:159.37937998771667
+ATAC.chr19.R01.fastq.gz:
+Algo Time = 20.613094091415405
+
+Success Rate: 
+0.8837707007120986
+
+
+
+ATAC.chr19.R02.fastq.gz:
+Algo Time = 20.873560667037964
+
+Success Rate: 
+0.8512424852064024
+
+
+
+
+
+
+
+
+
+
+
+
+
